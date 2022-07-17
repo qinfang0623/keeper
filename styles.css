@@ -1,0 +1,230 @@
+body {
+  font-family: "Baloo 2", cursive;
+  margin: 0;
+  background-color: #7e96a1;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+/* ====================================== Header ====================================== */
+
+.header-container {
+  color: #fff;
+  background-color: #6e8494;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+}
+
+/* Dropdown menu background color*/
+.navbar-nav > li > .dropdown-menu {
+  background-color: #7e96a1;
+}
+
+.add-btn {
+  display: inline-block;
+  border: 1px solid #7e96a1;
+  text-align: center;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: #7e96a1;
+}
+
+/* ====================================== Footer ====================================== */
+
+.footer-container {
+  color: #fff;
+  background-color: #6e8494;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.clock {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 20px 0 0;
+  font-size: 2rem;
+}
+
+.copyright {
+  margin: 8px 0;
+  opacity: 0.6;
+}
+
+/* ====================================== Greeting ====================================== */
+
+.greeting-container {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  z-index: -1;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.greeting-container-inner {
+  opacity: 0.9;
+  border-radius: 10px;
+  position: absolute;
+  margin: 200px auto 0;
+  left: 0;
+  right: 0;
+}
+
+.greeting {
+  font-size: 6rem;
+  opacity: 0.5;
+  font-weight: bold;
+  font-family: "Sacramento", cursive;
+}
+
+/* ====================================== Notes ====================================== */
+
+.creater-container {
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 5px;
+  border-radius: 10px;
+}
+
+.creater-input {
+  outline: none;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  opacity: 0.8;
+  border: 1px solid #7e96a1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+textarea {
+  line-height: 1.4;
+  outline: none;
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  opacity: 0.8;
+  border: 1px solid #7e96a1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.creater-btn {
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  bottom: -8px;
+  border: 1px solid #7e96a1;
+  color: #7e96a1;
+  opacity: 0.8;
+}
+
+.notes-container {
+  position: absolute;
+  z-index: 0;
+}
+
+.note-container {
+  position: relative;
+  color: #fff;
+  opacity: 0.7;
+  background-color: #7595ad;
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  overflow-y: auto;
+  margin: 120px 28px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.note-title {
+  margin: 10px 10px 20px;
+}
+
+.note-content {
+  margin: 0 20px 10px;
+  line-height: 2;
+}
+
+.delete-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+/* ====================================== Password ====================================== */
+
+.password-container {
+  border-radius: 10px;
+  padding: 50px 0;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 270px;
+  width: 500px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  background-color: #86b0d4;
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+}
+
+.confirm-message {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+}
+
+.password-input {
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
